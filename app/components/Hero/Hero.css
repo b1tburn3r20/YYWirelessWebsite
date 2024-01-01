@@ -1,0 +1,147 @@
+.hero-retail-phone {
+  max-height: 350px;
+  margin: 0 10px;
+}
+.hero {
+  background-size: 100% 100%;
+  background-position: 0px 0px;
+  background-image: radial-gradient(
+    49% 81% at 45% 47%,
+    #73008145 0%,
+    #073aff00 100%
+  );
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-size: cover !important;
+  padding-bottom: 4rem;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+  position: relative;
+}
+.shape-cut {
+  position: absolute;
+  z-index: -999;
+  width: 100vh;
+  height: 100%;
+  clip-path: polygon(88% 62%, 100% 100%, 6% 84%, 0 16%, 100% 0);
+  background: linear-gradient(
+    90deg,
+    rgba(250, 229, 120, 1) 0%,
+    rgba(167, 81, 168, 1) 48%,
+    rgba(37, 37, 37, 1) 100%
+  );
+}
+.hero-container-retail {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  z-index: 50 !important;
+  flex-direction: column;
+}
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align-last: left;
+  margin-right: 5;
+  padding: 0rem 1rem;
+
+  background: rgba(37, 37, 37, 0.3);
+}
+.hero-container-retail,
+.hero-container-wholesale {
+  display: flex;
+  justify-content: center; /* Centers the images horizontally */
+  align-items: center; /* Centers the images vertically (if needed) */
+  flex-direction: row; /* Aligns children (images) in a row */
+  margin-top: 20px;
+  z-index: 50;
+}
+
+.hero-retail-phone {
+  max-height: 350px;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+.hero-content {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+}
+
+.hero-images {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+  flex-direction: row; /* Place images side by side */
+}
+
+.hero-retail-phone {
+  max-height: 350px;
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.hero-text {
+  margin-top: 20px; /* Add space between images and text */
+  text-align: center;
+}
+.hero-switch-button {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  transform: translateY(-50%);
+  background-color: transparent; /* Button background color */
+  border: none; /* Remove border */
+  cursor: pointer;
+  color: rgb(216, 216, 216);
+  padding: 1rem;
+  font-size: 1.5rem;
+  /* Add more styling as required */
+}
+.hero-switch-button:hover {
+  color: white;
+}
+
+.hero-switch-button.left {
+  left: 20vw;
+}
+
+.hero-switch-button.right {
+  right: 20vw; /* Adjust as needed */
+}
+
+.hero-progress-bar-container {
+  width: 100%;
+  margin-top: 1rem;
+  max-width: 60vw; /* Adjust to match the width of hero-content */
+  height: 10px; /* Height of the progress bar */
+  background-color: rgb(
+    37,
+    37,
+    37
+  ); /* Background color for the unfilled part */
+  border-radius: 5px;
+  margin: 2rem auto;
+  overflow: hidden; /* Ensures the inner bar stays within the container */
+}
+
+.hero-progress-bar {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 229, 120, 1) 0%,
+    rgba(167, 81, 168, 1) 48%,
+    rgba(37, 37, 37, 1) 100%
+  );
+  transition: width 0.5s ease-out; /* Smooth transition for width change */
+}

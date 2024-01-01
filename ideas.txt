@@ -1,0 +1,30 @@
+On the home page we should...
+
+Have a banner dynamically displaying good things on why to choose YYWireless
+
+have a FAQ section
+
+Navbar config : Logo > Links > Search, login / signup | logout
+
+Have a darkmode theme with cool colors that are still, mature... Maybe it should still be light mode. 
+
+There was this one company who thought it was a good idea to have sections for each type of business needing wholesale phones
+I disagree.. thats not needed.
+
+I'll try to think of what exactly is needed. then from barebones grow. Simple is good, people like simple. 
+
+Oh ya thats brilliant, def use onscoll animations and onload animations
+
+Provide reasons to trust if applicable
+
+Testimonials section is good if applicable
+
+One website that has a sign up button that follows the users mouse. Lets do that but instead of signup it takes to sales
+
+Sleek black footer.
+
+That should do it!
+
+Slideshow Hero between two, first its wholesale then next is for individuals
+
+Add a radial gradient to the background of the hero

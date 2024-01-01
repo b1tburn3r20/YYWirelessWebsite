@@ -1,0 +1,14 @@
+#home-page-banner {
+  padding: 0.8rem;
+  background-color: rgb(37, 36, 34);
+  color: white;
+}
+
+#home-page-banner-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.banner-icon {
+  max-width: 1rem;
+  cursor: pointer;
+}

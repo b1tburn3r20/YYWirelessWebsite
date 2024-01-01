@@ -1,0 +1,19 @@
+.shop-now-container {
+  position: relative;
+  width: 70vw;
+  height: 50rem;
+  margin: auto;
+  overflow: hidden;
+  background-color: rgb(12, 12, 12);
+  border-radius: 10vh;
+}
+
+.cursor-follower {
+  position: absolute;
+  transition: all 0.3s ease;
+  transform: translate(-50%, -50%);
+}
+
+.cursor-follower a {
+  display: block;
+}

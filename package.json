@@ -1,0 +1,27 @@
+{
+  "name": "yywirelessnew",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "animejs": "^3.2.2",
+    "aos": "^2.3.4",
+    "framer-motion": "^10.16.16",
+    "gsap": "^3.12.4",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-progressbar": "^15.4.1",
+    "react-spring": "^9.7.3"
+  }
+}
