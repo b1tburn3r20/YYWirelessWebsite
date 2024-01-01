@@ -27,7 +27,7 @@ export default function Navbar() {
         href="/"
         className="navbar-left navbar-section"
       >
-        <img src="/home/YYWIRELESS.webp" className="logo" alt="" />
+        <img src="/home/YYWI.png" className="logo" alt="" />
       </Link>
       <div
         data-aos="fade-down"

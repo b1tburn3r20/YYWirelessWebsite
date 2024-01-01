@@ -1,19 +1,22 @@
+.shopnow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 .shop-now-container {
   position: relative;
-  width: 70vw;
-  height: 50rem;
-  margin: auto;
+  width: 70rem;
+  height: 30rem;
+  background-color: rgb(10, 10, 10);
   overflow: hidden;
-  background-color: rgb(12, 12, 12);
-  border-radius: 10vh;
 }
 
 .cursor-follower {
+  height: 70px;
   position: absolute;
-  transition: all 0.3s ease;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.cursor-follower a {
-  display: block;
+  will-change: transform;
 }

@@ -14,17 +14,21 @@ export default function ShopNowComponent() {
   };
 
   return (
-    <div
-      className="shop-now-container"
-      ref={containerRef}
-      onMouseMove={handleMouseMove}
-    >
-      <h1>Shop Now Component</h1>
+    <div className="shopnow">
       <div
-        className="cursor-follower"
-        style={{ left: cursorPos.x, top: cursorPos.y }}
+        className="shop-now-container"
+        ref={containerRef}
+        onMouseMove={handleMouseMove}
       >
-        <a href="/shop-now">Shop Now</a>
+        <h1>Shop Now Component</h1>
+        <div
+          className="cursor-follower"
+          style={{ left: cursorPos.x, top: cursorPos.y }}
+        >
+          <a href="/shop-now" target="_blank">
+            Shop Now
+          </a>
+        </div>
       </div>
     </div>
   );

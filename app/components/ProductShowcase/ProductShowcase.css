@@ -15,8 +15,15 @@
   margin: 0.5rem;
   border-radius: 1rem;
   cursor: pointer;
-  /* Additional styling */
+  transition: all 0.2s;
 }
+
+.product-item:hover {
+  transform: scale(1.1);
+  background-color: rgb(225, 225, 225);
+  color: rgb(12, 12, 12);
+}
+
 .product-price {
   font-weight: 100;
 }
