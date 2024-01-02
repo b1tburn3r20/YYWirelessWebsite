@@ -42,10 +42,13 @@ export default function Navbar() {
           Wholesale
         </div>
         <div className={isHovered ? "navbar-item-expanded" : "navbar-item"}>
+          FAQ
+        </div>
+        <div className={isHovered ? "navbar-item-expanded" : "navbar-item"}>
           Contact us
         </div>
         <div className={isHovered ? "navbar-item-expanded" : "navbar-item"}>
-          FAQ
+          About us
         </div>
       </div>
       <div

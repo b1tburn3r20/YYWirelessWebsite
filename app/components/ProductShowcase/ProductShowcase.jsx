@@ -34,7 +34,7 @@ const ProductShowcase = () => {
       products.forEach((product, index) => {
         const productDiv = document.createElement("div");
         productDiv.className = "product-item";
-        productDiv.innerHTML = `<img class="product-image" src=${product.imageUrl} alt='${product.name}' /><h3 class="product-name">${product.name}</h3><h4 class="product-price">${product.price}</h4>`;
+        productDiv.innerHTML = `<img class="product-image" src="${product.imageUrl}" alt="${product.name}" /><h3 class="product-name">${product.name}</h3><h4 class="product-price">Starting at: ${product.price}</h4>`;
         container.appendChild(productDiv);
       });
     };

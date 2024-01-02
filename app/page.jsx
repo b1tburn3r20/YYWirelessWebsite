@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import HomePageBanner from "./components/HomePageBanner/HomePageBanner";
 import Navbar from "./components/Navbar/Navbar";
@@ -10,6 +9,7 @@ import ShopNowComponent from "./components/ShopNowComponent/ShopNowComponent";
 import EmailSignUp from "./components/EmailSignup/EmailSignup";
 import Footer from "./components/Footer/Footer";
 import ProductShowCase from "./components/ProductShowcase/ProductShowcase";
+import WholesaleAppeal from "./components/WholesaleAppeal/WholesaleAppeal";
 export default function Home() {
   return (
     <main>
@@ -18,8 +18,8 @@ export default function Home() {
         <Navbar />
         <Hero />
         <ProductShowCase />
-
         <EmailSignUp />
+        <WholesaleAppeal />
         <WhyTrustUsComponent />
         <ShopNowComponent />
         <Testimonials />
